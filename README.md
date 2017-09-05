@@ -5,12 +5,12 @@ The reason I rewrote the code was because the code in his example was hard to un
 
 You can find the client-side code [HERE](https://github.com/emilsivervik/socket.io-mutiplayer-client)
 
-# Install
+## install
 npm install
 
-# Build
+## build
 npm run build
 
-# Run & Watch for changes
+## run & watch for changes
 npm run start
 
