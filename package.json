@@ -1,0 +1,25 @@
+{
+  "name": "socket.io-mutiplayer-server",
+  "author": "Emil Sivervik",
+  "description": "This is a _BASIC_ sample of how a multiplayer network (on the server-side) game could work, implemented with Client Side Prediction and Interpolation, the code is rewritten from Sven Bergströms article: http://buildnewgames.com/real-time-multiplayer/",
+  "main": "./src/app.js",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "babel-node --presets es2015 ./src/app.js",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "webpack": "^3.5.5",
+    "webpack-node-externals": "^1.6.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2"
+  },
+  "dependencies": {
+    "socket.io": "^2.0.3"    
+  },
+  "engine": {
+    "node": "*"
+  }
+}
